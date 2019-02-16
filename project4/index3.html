@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="libs/bootstrap/css/bootstrap.css">
+			<link rel="stylesheet" type="text/css" href="css/index.css"/>
+			<script src="libs/jquery/jquery-3.2.1.js" type="text/javascript"></script>
+			<script src="libs/bootstrap/js/bootstrap.js" type="text/javascript"></script>
+			<link rel="stylesheet" type="text/css" href="css/index3.css"/>
+			<script src="js/tools.js" type="text/javascript">	</script>
+			<script src="js/index3.js" type="text/javascript">	</script>
+		<title>登录主页</title>
+	</head>
+	<body>
+	<div id="Box">
+		
+		
+		
+		
+	<nav class="navbar navbar-default">
+   <div class="container-fluid">
+   
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+ <a id="lastB" href="http://localhost/project4/index2.html">返回登录</a>	    
+ <p class="navbar-text navbar-right">记住我! &nbsp; &nbsp;
+ <a href="#" id="lastA" class="navbar-link">姚雄</a>&nbsp; &nbsp;
+ </p>
+  </nav>	
+  <h1>H5 1809班 错题集</h1>
+	</div>	
+	
+	
+	
+	<div id="main">
+	
+	<div id="main-box">
+		
+	<button type="button" class="btn btn-primary" data-toggle="modal" 
+	data-target="#exampleModal" data-whatever="@fat"> +添加题目+ </button>	
+	
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+  <div class="modal-dialog" role="document">
+		<!-- 绑事件 -->
+    <div class="modal-content" id="modal-content"> 
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="exampleModalLabel">New message</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="control-label">题目：</label>
+            <input type="text" class="title form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+          	<label for="recipient-name" class="control-label">答案：</label>
+          	<input type="text" class="answer form-control" id="recipient-name2">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default closebtn" data-dismiss="modal" id="closebtn">取消</button>
+        <button type="button" class="btn btn-primary okbtn" data-dismiss="modal" id="okbtn">添加</button>
+      </div>
+    </div>
+  </div>
+</div>
+	
+	</div>	
+		
+		
+	<table id="table" class="table table-striped">
+     <thead>
+     <th>编号</th>
+     <th>题目</th>
+     <th>答案</th>
+     <th>编辑</th>
+     </thead> 
+	<tbody id="tbody">
+	</tbody> 
+	 
+   </table>	
+	<!-- 分页 -->
+	<nav aria-label="Page navigation" id="lastnav">
+  <ul class="pagination" id="paginationUl">
+    <li class="Aliprev">
+      <a class="Aliprev" href="#" aria-label="Previous">
+        <span class="Aliprev" aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+		
+    
+		
+    <li id="next" class="Alinext">
+      <a href="#" aria-label="Next" class="Alinext">
+        <span class="Alinext" aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+	</div>	
+		
+	
+	
+	
+	
+	
+	
+	</body>
+</html>
